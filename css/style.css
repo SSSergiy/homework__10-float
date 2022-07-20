@@ -30,8 +30,8 @@ main {
 .main__block-2 {
   border: 1px solid #000;
   float: left;
-  margin: 0px 0px 0px 1210px;
   height: 30px;
+  margin: 0px 0px 0px 10px;
   width: 30px;
 }
 .main__block-3 {
@@ -52,6 +52,9 @@ main::after {
   content: '';
   clear: both;
   display: block;
+}
+.wraper__right-float{
+float: right;
 }
 .aside__first {
   border: 1px solid #000;
